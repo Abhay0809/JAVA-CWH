@@ -47,6 +47,7 @@ public class CWH_HW_00_OnlineLibrary {
         // Array to store the issued books
 
         Library centralLibrary = new Library();
+
         centralLibrary.addBook("Think and grow Rich");
         centralLibrary.addBook("Algorithms");
         centralLibrary.addBook("C++");
