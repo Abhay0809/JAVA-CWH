@@ -6,8 +6,17 @@ interface myFunctionalInteface{
 //    void thisMethod2();
 }
 
+class Phone{
+    public void showTime(){
+        System.out.println("Time is 8 am");
+    }
+    public void on(){
+        System.out.println("Turning on Phone...");
+    }
+}
+
 class NewPhone extends Phone{
-//    @Override
+    @Override
     public void showTime(){
         System.out.println("Time is 8PM");
     }
@@ -25,4 +34,3 @@ public class CWH_12_Annotations {
             phone.sum(5, 6);
         }
     }
-}
